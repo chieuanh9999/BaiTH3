@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Autumn Travel Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+    /* Header */
+    header {
+      background: #7b3f00;
+      color: #d9f067;
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    /* Menu */
+    nav {
+      background: #d99b5c;
+      text-align: center;
+      padding: 8px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #000;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #7b3f00;
+    }
+    /* Banner */
+    .banner {
+      background: url('https://i.imgur.com/9LOkq4S.jpg') no-repeat center;
+      background-size: cover;
+      height: 70px;
+    }
+    /* Layout */
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+    .left {
+      width: 65%;
+      padding-right: 20px;
+    }
+    .right {
+      width: 35%;
+      background: #fffaf3;
+      padding: 15px;
+      border-left: 1px solid #ccc;
+    }
+    /* Left content */
+    .left h2 {
+      color: #7b3f00;
+      font-size: 18px;
+    }
+    .left p {
+      color: #7b3f00;
+      font-style: italic;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .left input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #aaa;
+      padding: 8px;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    .left button {
+      background: #8b8b00;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .left button:hover {
+      background: #6a6a00;
+    }
+    /* Right content */
+    .right h3 {
+      color: #7b3f00;
+      margin-top: 0;
+    }
+    .right ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .right ul li {
+      margin: 6px 0;
+      color: #7b3f00;
+    }
+    .right p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+    .right img {
+      width: 80px;
+      float: left;
+      margin: 5px 10px 5px 0;
+    }
+    /* Footer */
+    footer {
+      background: #f5f5f5;
+      text-align: center;
+      font-size: 13px;
+      padding: 15px;
+      border-top: 2px solid #7b3f00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    AUTUMN TRAVEL COMPANY
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Products</a>
+    <a href="#">Services</a>
+    <a href="#">Order</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <div class="container">
+    <!-- Left -->
+    <div class="left">
+      <h2>Sign up for membership benefits</h2>
+      <p>
+        Our philosophical values are transparency, respect, formality and responsibility. 
+        Our stimulus is your enthusiasm. Our motto is your satisfaction.
+      </p>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="E-mail">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Retype password">
+        <button type="submit">SIGN ME UP</button>
+      </form>
+    </div>
+
+    <!-- Right -->
+    <div class="right">
+      <h3>Links</h3>
+      <ul>
+        <li>Make your Own Tour</li>
+        <li>Maldives Tours</li>
+        <li>Nature & Adventure</li>
+        <li>Readymade Tours</li>
+        <li>Europe Tours</li>
+        <li>Rusia Tours</li>
+      </ul>
+      <h3>More info</h3>
+      <p>
+        <img src="./hinhanh/la thu.jpg" alt="Leaf">
+        Our purpose is the client who gives to us the opportunity to serve and to make known the reality around the world.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    © 2017 Software Engineering Department | Test Date: 16 Sept 2017
+  </footer>
+
+</body>
+</html>

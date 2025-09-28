@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlowerBox 360</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    /* Header */
+    header {
+      background: #1f3c70;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    header h1 span {
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+    }
+    header .search {
+      display: flex;
+      align-items: center;
+    }
+    header input[type="text"] {
+      padding: 5px;
+      font-size: 14px;
+    }
+    header input[type="submit"] {
+      padding: 5px 10px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Menu */
+    nav {
+      background: #2e5293;
+      padding: 10px 20px;
+    }
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+    .left, .right {
+      width: 25%;
+      padding: 10px;
+    }
+    .center {
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Left column */
+    .left h2 {
+      color: darkred;
+      font-size: 20px;
+    }
+    .left form {
+      display: flex;
+      flex-direction: column;
+    }
+    .left input, .left textarea {
+      margin-bottom: 8px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+    .left input[type="submit"], .left input[type="reset"] {
+      width: 80px;
+      margin-right: 5px;
+      cursor: pointer;
+      background: #eee;
+      border: 1px solid #999;
+    }
+
+    /* Center */
+    .center h2 {
+      font-size: 18px;
+      border-bottom: 1px dotted #999;
+      padding-bottom: 5px;
+    }
+    .center p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* Right */
+    .right h2 {
+      font-size: 18px;
+      border-bottom: 1px dotted #999;
+      padding-bottom: 5px;
+    }
+    .right img {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .right p {
+      font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+      background: #1f3c70;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FlowerBox 360 <span>...to get your daily dose of luxury roses!</span></h1>
+    <div class="search">
+      <input type="text" placeholder="Search the site...">
+      <input type="submit" value="GO">
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Promotion</a>
+    <a href="#">Gift Baskets</a>
+    <a href="#">Flower Services</a>
+    <a href="#">About</a>
+  </nav>
+
+  <div class="container">
+    <!-- Left -->
+    <div class="left">
+      <h2>Why Not Contact Us Today!</h2>
+      <p style="color:red; font-size:14px; font-style:italic;">
+        For FlowerBox 360 shoppers, that means not only can you send your friends and loved ones the highest quality flowers found online, but that you can do so at a great value.
+      </p>
+      <form>
+        <label>Name:</label>
+        <input type="text">
+        <label>Telephone:</label>
+        <input type="text">
+        <label>Message:</label>
+        <textarea rows="4"></textarea>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+
+    <!-- Center -->
+    <div class="center">
+      <h2>FlowerBox 360 Info!</h2>
+      <p><strong>Operating Hours:</strong><br>
+      Monday-Friday: 9.00am-5.00pm.<br>
+      Saturday: 9.00am-1.00pm.<br>
+      Sunday: Closed (No Deliveries)<br>
+      ORDER ONLINE 24/7</p>
+
+      <p><strong>Software Engineering Dept.</strong><br>
+      Information Technology Faculty<br>
+      First Floor, H Building</p>
+
+      <p>12 Nguyen Van Bao St., Ward 4<br>
+      Go Vap District<br>
+      Ho Chi Minh City<br>
+      Tel: 0283.8940 390<br>
+      Fax: 0283.9940 954</p>
+    </div>
+
+    <!-- Right -->
+    <div class="right">
+      <h2>Discounts & Specials</h2>
+      <img src="./hinhanh/hoa.jpg" alt="Flower">
+      <p>FlowerBox 360 offers many great discounts throughout the year, from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderful troops!</p>
+      <p><a href="#">Read More &raquo;</a></p>
+    </div>
+  </div>
+
+  <footer>
+    Copyright © 2017 - All Rights Reserved - Software Engineering Department - Industrial University of Ho Chi Minh City
+  </footer>
+
+</body>
+</html>
